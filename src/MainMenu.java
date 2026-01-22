@@ -23,6 +23,7 @@ public class MainMenu extends JFrame {
        add(mainPanel);
        setTitle("Metronome");
        setSize(400,300);
+       setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         if (visible)
             setVisible(true);

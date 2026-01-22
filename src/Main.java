@@ -8,6 +8,7 @@ public class Main {
 UIManager.setLookAndFeel(new FlatDarkLaf());
         UIManager.put("Button.arc", 999); // 0 → köşesiz, 999 → tam yuvarlak
 
+
 //Metronome test = new Metronome();
         MainMenu test = new MainMenu(true);
 
